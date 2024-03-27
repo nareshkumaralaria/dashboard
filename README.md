@@ -1,30 +1,68 @@
-# React + TypeScript + Vite
+# Dashboard
+## Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple dashboard ui design using react and tailwind css.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Sidebar**: The sidebar contains links to different sections of the dashboard, allowing users to navigate between them easily.
 
-## Expanding the ESLint configuration
+- **Header**: The header displays the user's profile picture, notification icons, and a search box for searching through the dashboard.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Responsive**: The dashboard is fully responsive and adapts to different screen sizes, ensuring a consistent user experience across devices.
 
-- Configure the top-level `parserOptions` property like this:
+- **Charts**: The dashboard includes various charts and graphs to visualize data, making it easier for users to understand and analyze information.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- **Table**: The dashboard displays a table with data that users can interact with, such as sorting, filtering, and searching.
+
+## Prerequisites
+
+- Node.js
+- npm
+
+
+## Technologies
+
+- **Frontend:**
+  - React
+  - React Router (for navigation)
+  - Shadcn ui (for UI components)
+  - Tailwind css (for Styling)
+  - ApexCharts (for charts)
+
+## How to Run This Project Locally
+To run this project on your local machine, follow these steps:
+
+- Clone the repository to your local machine:
+```bash
+git clone https://github.com/nareshkumaralaria/dashboard.git
+
+```
+- Navigate to the project directory:
+```bash
+cd dashboard
+
+```
+- Navigate to the client directory:
+- Install dependencies:
+```bash
+npm install
+
+```
+- Start the development server
+```bash
+npm run dev
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Access the Application
+- Open your web browser and access the application at http://localhost:5173.
+
+
+## Demo
+For a live demonstration of the visit the following link: [https://roado-naresh.netlify.app/](https://roado-naresh.netlify.app/)
+
+
+## Authors
+
+- [@nareshkumaralaria](https://github.com/nareshkumaralaria) (Naresh Kumar)
